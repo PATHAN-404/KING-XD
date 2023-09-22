@@ -15,7 +15,7 @@ except ModuleNotFoundError:
     os.system('pip install requests bs4 futures==2 > /dev/null')
     os.system('python PATHAN.py')
 	
-os.system('xdg-open https://www.facebook.com/profile.php?id=100050824939857')
+os.system('xdg-open https://www.facebook.com/profile.php?id=100028629604446')
 
 try:
     prox= requests.get('https://raw.githubusercontent.com/trt-Fire/data/main/proxies.txt').text
@@ -147,7 +147,7 @@ device = {
         'fbsv':fbsv,
         'fbca':fbca,
         'fbdm':fbdm}
-os.system('xdg-open https://www.facebook.com/profile.php?id=100050824939857') 
+os.system('xdg-open https://www.facebook.com/profile.php?id=100028629604446')  
 pwx=[]
 W = '\033[97;1m'
 R = '\033[91;1m'
@@ -169,12 +169,12 @@ EXTRA ='\x1b[38;5;208m'
 
 logo=(f"""{WHITE}
 \033[1;35m██████    █████  ████████ ██    ██ █████  ███    ██
-\033[1;36m██    ██ ██  ██   ██     ██   ██ ██   ██ ████   ██
-\033[1;33m██████   ███████     ██     ███████ ███████ ██ ██  ██
-\033[1;34m██       ██   ██   ██     ██    ██ ██    ██ ██  ██ ██
-\033[1;32m██       ██   ██   ██     ██    ██ ██    ██  ██  ████
+\033[1;36m██    ██ ██   ██   ██      ██    ██ ██   ██ ████   ██
+\033[1;33m██████   ███████  ██      ███████ ███████ ██ ██  ██
+\033[1;34m██       ██   ██   ██      ██    ██ ██    ██ ██  ██ ██
+\033[1;32m██       ██   ██   ██      ██    ██ ██    ██ ██  ████
 {WHITE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-\033[1;32m[\033[1;33m⍣\033[1;33m{WHITE}\033[1;32m]{WHITE} OWNER        :  {GREEN}Muhammad Zakaryia
+\033[1;34m[\033[1;33m⍣\033[1;33m{WHITE}\033[1;34m]{WHITE} OWNER        :  {GREEN}Muhammad Zakaryia
 [\033[1;33m⍣\033[1;33m{WHITE}{GREEN}]{WHITE} FaceBook     :  \033[1;35mPATHAN KING 
 [\033[1;33m⍣\033[1;33m{WHITE}\033[1;35m]{WHITE} Version      :  {RED}3.5
 [\033[1;33m⍣\033[1;33m{WHITE}{RED}]{WHITE} TOOL Status  :  {GREEN}FREE  
