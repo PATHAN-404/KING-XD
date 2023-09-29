@@ -176,7 +176,7 @@ logo=(f"""{WHITE}
 {WHITE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 \033[1;34m[\033[1;33m⍣\033[1;33m{WHITE}\033[1;34m]{WHITE} OWNER        :  {GREEN}Muhammad Zakaryia
 [\033[1;33m⍣\033[1;33m{WHITE}{GREEN}]{WHITE} FaceBook     :  \033[1;35mPATHAN KING 
-[\033[1;33m⍣\033[1;33m{WHITE}\033[1;35m]{WHITE} Version      :  {RED}3.5
+[\033[1;33m⍣\033[1;33m{WHITE}\033[1;35m]{WHITE} Version      :  {RED}3.6
 [\033[1;33m⍣\033[1;33m{WHITE}{RED}]{WHITE} TOOL Status  :  {GREEN}FREE  
 \033[1;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 def linex():
